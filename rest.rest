@@ -1,0 +1,27 @@
+GET https://zany-skitter-caper.glitch.me/experiences
+
+###
+
+POST https://zany-skitter-caper.glitch.me/experiences
+Content-Type: application/json
+
+{
+  "companyName": "JAme bond Company",
+	"position":	"Developer",
+	"description": "FE BA asdas das das das dasd asd asd asd asd as dsad ",
+	"startYear": "2013",
+	"finishYear": "2020"
+}
+
+
+###
+
+GET https://api.chucknorris.io/jokes/random
+
+###
+
+GET https://api.chucknorris.io/jokes/categories
+
+###
+
+GET https://api.chucknorris.io/jokes/random?category=dev
