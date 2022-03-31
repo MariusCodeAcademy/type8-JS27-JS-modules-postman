@@ -1,16 +1,13 @@
 import { countAvg, countAvgThree } from './modules/avg.js';
+// export default importuojase be {}
+import makeDoubleAndPlus, { colors } from './modules/count.js';
+import { p } from './modules/data.js';
 // import * as avg from './modules/avg.js';
 
 console.log('main');
 const appEl = document.getElementById('app');
-
-// sukurti funkcija kuri priima sk argumenta. padvigubina argumenta ir prideda 10 ir grazina
-// perkelti makeDoubleAndPlus i count.js ir export import
-function makeDoubleAndPlus(num) {
-  const double = num * 2;
-  const plus10 = double + 10;
-  return plus10;
-}
+appEl.innerHTML = p;
+console.log('colors ===', colors);
 
 const nr1 = makeDoubleAndPlus(10);
 console.log('nr1 ===', nr1); // istestuoti ar veikia
